@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'My Lucida';
     src: url('../font/LucidaGrande.ttf');
-    font-style: normal; 
+    font-style: normal;
     font-weight: bold;
 }
 
@@ -18,8 +18,22 @@ a {
     text-decoration: none;
 }
 
+/*.container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+
+}*/
+
 .wrapper {
-    padding: 25px 0;
+    padding: 25px 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
 }
 
 body > header {
@@ -129,14 +143,14 @@ h2 {
 }
 
 header form {
-    width: 100%;
+    width: 70%;
 }
 
 input.search {
     background: url("../img/icon/search.png") #ebeff1 no-repeat 8px;
     box-shadow: none;
     height: 28px;
-    width: 100%;
+    max-width: 30%;
     font-size: 13px;
     padding: 3px 6px 3px 25px;
     border: 1px solid #d0dde9;
