@@ -51,6 +51,16 @@ header .logo-search form  {
 
 header .user {
     float: right;
+
+}
+
+header .user #dropdownMenuButton1 {
+    background-color: transparent;
+    font-size: 1em;
+    color: #89949b;
+    padding-top: 5px;
+    outline: none;
+    border: 0px;
 }
 
 header .user a {
